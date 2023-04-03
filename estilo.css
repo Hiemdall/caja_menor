@@ -1,0 +1,78 @@
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+  }
+  
+  form h1 {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  form label {
+    width: 24%;
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  form input[type="text"],
+  form input[type="date"],
+  form select {
+    width: 70%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form input[type="submit"] {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #095f99;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para la tabla */
+  #tabla_registros {
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #tabla_registros thead {
+    background-color: #095f99;
+    color: #fff;
+  }
+  
+  #tabla_registros th,
+  #tabla_registros td {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  #tabla_registros th {
+    text-align: left;
+  }
+  
+  #tabla_registros tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
